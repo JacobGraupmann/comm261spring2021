@@ -1,0 +1,59 @@
+a:hover {
+    color: #FF00FF;
+  }
+
+a#lunch :hover{
+    color: red;
+}
+
+a#dinner :hover{
+    color: blue;
+}
+
+#breakfastcss{
+    width: calc(10px + 300px);
+    border: 5px solid rgb(60, 179, 113);
+    margin: 20px;
+
+}
+
+#lunchcss{
+    width: 300px;
+    border: 5px solid hsl(0, 100%, 50%);
+    margin: 20px;
+}
+    
+#dinnercss{
+    width: 300px;
+    border: 5px solid rgb(0, 0, 255);
+    margin: 20px;
+}    
+
+* {
+    background-color: tan;
+}
+
+h1{
+    color: white;
+    width: calc(10px + 100px);
+    font-family: 'Lobster', cursive;
+}
+#top{
+    font-weight: bolder;
+}
+body, html {
+    height: 100%;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("breakfast-lg.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
